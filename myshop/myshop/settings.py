@@ -190,5 +190,5 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-MEDIA_ROOT = location("public/media")
+MEDIA_ROOT = location("/media")
 MEDIA_URL = '/media/'
