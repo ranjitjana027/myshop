@@ -15,7 +15,7 @@ import os
 #change made here
 
 from oscar.defaults import *
-
+import django_heroku
 # Path helper
 
 
@@ -192,3 +192,9 @@ STATIC_URL = '/static/'
 
 MEDIA_ROOT = location("/media")
 MEDIA_URL = '/media/'
+
+
+OSCAR_SHOP_NAME='MyStore'
+
+
+django_heroku.settings(locals())
