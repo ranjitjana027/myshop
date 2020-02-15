@@ -1,4 +1,4 @@
-# Oscar framework based Application
+# Django-Oscar framework based Application
  To run server locally, create a file named '.env'.
 Add this line of code to it.
 
